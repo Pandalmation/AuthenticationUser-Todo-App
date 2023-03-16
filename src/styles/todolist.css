@@ -1,8 +1,8 @@
 .todoList{
   width: 100%;
   padding: 15px 20px;
-  border-left: 4px solid hsl(210, 10%, 75%);
-  background-color: white;
+  border-left: 4px solid hsl(314, 10%, 75%);
+  background-color: rgb(132, 208, 255);
   max-width: 700px;
   margin: 0 auto;
   display: flex;
@@ -12,8 +12,8 @@
 }
 
 .todoList--borderColor{
-  border-color: green;
-  box-shadow: 0 6px 18px -9px hsl(210, 15%, 65%);
+  border-color: #439bff;
+  box-shadow: 0 6px 18px -9px hsl(0, 0%, 100%);
 }
 
 .todoList__body {
@@ -36,7 +36,7 @@
   content: '';
   background: inherit;
   border-radius: 5px;
-  border: 2px solid hsl(210, 15%, 70%);
+  border: 2px solid hsl(242, 100%, 50%);
   display: inline-block;
   vertical-align: middle;
   width: 12px; 
@@ -50,7 +50,7 @@
   position: absolute;
   width: 2px;
   height: 6px;
-  border: solid green;
+  border: solid rgb(4, 132, 4);
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
   top: 2px; left: 5px;
@@ -93,7 +93,7 @@
   background-color: transparent;
   border: none;
   font-size: 16px;
-  color: hsl(210, 10%, 55%);
+  color: hsl(257, 90%, 42%);
 }
 
 .todoList__editButton:hover {
